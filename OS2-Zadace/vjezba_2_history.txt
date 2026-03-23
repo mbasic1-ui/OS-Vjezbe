@@ -24,3 +24,6 @@ ls
 cd data
 ls -A -t modified -1
 ls -alh
+ls -alS
+ls -lhS
+tree -a
