@@ -13,3 +13,14 @@ cp -v vjezba_2/data/style.css vjezba_2/backup
 cp -v vjezba_2/data/.env vjezba_2/backup
 cd vjezba_2/data
 ls -alS ../backup
+cd ../..
+rm -iv vjezba_2/data/style.css
+rm -iv vjezba_2/data/script.js
+cd vjezba_2/backup
+ls
+cp -n * ../data
+cd ..
+ls
+cd data
+ls -A -t modified -1
+ls -alh
